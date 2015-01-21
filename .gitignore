@@ -1,0 +1,6 @@
+*.so
+*.h5
+build
+*.pyc
+*.cpp
+*.c
