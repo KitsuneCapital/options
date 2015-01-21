@@ -29,7 +29,7 @@ this_dir = os.path.split(cython.__file__)[0]
 
 setup(
   name = 'options',
-  ext_modules = cythonize(["*.pyx","time/kit_time.pyx"]),
+  ext_modules = cythonize(["*.pyx","time/kit_time.pyx","kospi/kit_kospi.pyx"]),
   include_dirs=[np.get_include(),this_dir],
   language="c++"
 )
